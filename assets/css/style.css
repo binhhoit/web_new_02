@@ -213,18 +213,29 @@ footer .fb-right {
 
 
 /* new style */
-
-
 /* header body */
 
-.content-header {
-    /* opacity: 0.1; */
-    background-image: linear-gradient(to bottom, #f7f4f4, #e0dfdf);
-    background-image: linear-gradient(to bottom, var(--white), var(--white-two));
-    box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.5);
-    margin-left: 3.8%;
-    margin-right: 3.8%;
-    margin-top: 0.4%;
+@media (min-width: 768px) and (max-width: 1338px) {
+    .content-header {
+        width: 1000px;
+        background-image: linear-gradient(to bottom, #f7f4f4, #e0dfdf);
+        background-image: linear-gradient(to bottom, var(--white), var(--white-two));
+        box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.5);
+        margin-top: 0.4%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1338px) {
+    .content-header {
+        width: 1338px;
+        /* opacity: 0.1; */
+        background-image: linear-gradient(to bottom, #f7f4f4, #e0dfdf);
+        background-image: linear-gradient(to bottom, var(--white), var(--white-two));
+        box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.5);
+        margin-top: 0.4%;
+        margin: 0 auto;
+    }
 }
 
 .bg_transparent {
@@ -329,7 +340,7 @@ body {
 }
 
 .content {
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 p {
@@ -384,25 +395,160 @@ p {
 
 .iv_h9 {
     background: url(../images/iv-h-9.png);
+}
+
+.iv_h8 {
+    background: url(../images/iv-h-8.png);
+}
+
+.iv_h6 {
+    background: url(../images/iv-h-6.png);
+}
+
+.iv_h3 {
+    background: url(../images/iv-h-3.png);
+}
+
+.iv_in_text {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
     object-fit: contain;
-   
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .image {
-        width: 800px;
-        height: 560px;
+        width: 690px;
+        height: 360px;
         margin: 0 auto;
     }
+    .content_image {
+        width: 80%;
+        height: 164px;
+        font-family: SVN_GilroyBold;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+    }
+    .sign_content {
+        width: 144px;
+        height: 61px;
+        font-family: iCielAstrolight_Roman;
+        font-size: 36px;
+        font-weight: 300;
+        text-align: left;
+        color: #ffffff;
+        margin-top: -18%;
+    }
 }
-@media (max-width : 990px) {
-    .image{
+
+@media (min-width: 1024px) {
+    .image {
         width: 990px;
         height: 660px;
         margin: 0 auto;
     }
+    .content_image {
+        width: 100%;
+        height: 164px;
+        font-family: SVN_GilroyBold;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+    }
+    .sign_content {
+        width: 144px;
+        height: 61px;
+        font-family: iCielAstrolight_Roman;
+        font-size: 50px;
+        font-weight: 300;
+        text-align: left;
+        color: #ffffff;
+        margin-top: 6%;
+    }
+}
+
+div.relative {
+    position: relative;
+}
+
+div.absolute {
+    position: absolute;
+    top: 52%;
+    right: 0;
+    margin-left: 40%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .image_general {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .sign_h8_content {
+        margin-top: -24%;
+    }
+    .content_h6 {
+        margin-bottom: -23%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .image_general {
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .iv_h1_add_position {
+        margin-left: -10%;
+    }
+    .sign_h8_content {
+        margin-top: -18%;
+    }
+    .content_h6 {
+        margin-bottom: -10%;
+    }
+}
+
+.iv_h1 {
+    width: 1440px;
+    object-fit: contain;
+}
+
+.iv_h2 {
+    width: 990px;
+    object-fit: contain;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.iv_h4 {
+    width: 990px;
+    object-fit: contain;
+}
+
+.iv_h5 {
+    width: 491px;
+    object-fit: contain;
+}
+
+.image_general_div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.position_h8 {
+    margin-right: 39%;
+}
+
+.text_align_image {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.image_h5 {
+    margin-top: 50px;
+    height: 1000px
 }
