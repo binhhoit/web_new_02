@@ -211,6 +211,26 @@ footer .fb-right {
     }
 }
 
+.logo.nav-down {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    background: white;
+}
+
+.logo.nav-up {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    background: white;
+}
+
 
 /* new style */
 
