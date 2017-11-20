@@ -217,13 +217,14 @@ footer .fb-right {
 
 /* header body */
 
-@media (min-width: 320px) and (max-width: 777px) {
+@media (min-width: 0px) and (max-width: 777px) {
     .content-header {
-        width: 500px;
+        width: 320px;
         background-image: linear-gradient(to bottom, #f7f4f4, #e0dfdf);
         box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.5);
         margin-top: 0.4%;
         margin: 0 auto;
+        text-align: -webkit-right;
     }
     .text_title {
         font-family: iCielAstrolight_Roman;
@@ -250,15 +251,20 @@ footer .fb-right {
     .ic_women {
         width: 96px;
         object-fit: contain;
-        margin-top: -33%;
-        margin-left: 25%;
+        margin-top: -53%;
+        margin-right: 43%;
     }
     .iv_man {
         width: 242px;
         object-fit: contain;
         opacity: 0.5;
-        margin-top: -49%;
-        margin-left: 51%;
+    }
+    .header_right {
+        text-align: center;
+    }
+    .header_left {
+        float: left;
+        width: 100%;
     }
 }
 
@@ -269,6 +275,7 @@ footer .fb-right {
         box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.5);
         margin-top: 0.4%;
         margin: 0 auto;
+        text-align: -webkit-right;
     }
     .text_title {
         height: 168px;
@@ -298,7 +305,7 @@ footer .fb-right {
         width: 132px;
         object-fit: contain;
         margin-top: -35%;
-        margin-left: 27%;
+        margin-right: 49%;
     }
     .iv_man {
         width: 352px;
@@ -310,6 +317,10 @@ footer .fb-right {
         margin-top: 4%;
         float: left;
     }
+    .header_left {
+        float: left;
+        width: 58%;
+    }
 }
 
 @media (min-width: 1338px) {
@@ -320,6 +331,7 @@ footer .fb-right {
         box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.5);
         margin-top: 0.4%;
         margin: 0 auto;
+        text-align: -webkit-right;
     }
     .text_title {
         height: 168px;
@@ -351,7 +363,7 @@ footer .fb-right {
         height: 201px;
         object-fit: contain;
         margin-top: -21%;
-        margin-left: 38%;
+        margin-right: 37%;
     }
     .iv_man {
         width: 577px;
@@ -365,15 +377,15 @@ footer .fb-right {
         float: left;
         width: 49%;
     }
+    .header_left {
+        float: left;
+        width: 58%;
+    }
 }
 
 .bg_transparent {
     background: transparent;
-}
-
-.header_left {
-    float: left;
-    width: 58%;
+    width: 100%;
 }
 
 
@@ -437,43 +449,79 @@ p {
 
 /*see more  */
 
-.see_more {
-    width: 418px;
-    background-color: #eeeeee;
-    float: left;
-    margin-bottom: 3%;
-    padding: 2%;
-    margin-right: 1%
+@media (min-width: 0px) and (max-width: 777px) {
+    .see_more {
+        width: 281px;
+        background-color: #eeeeee;
+        float: left;
+        margin-bottom: 3%;
+        padding: 2%;
+        margin-right: 1%
+    }
+    .iv_see_more {
+        width: 35.4%;
+        object-fit: contain;
+        float: left;
+        margin-top: 10%;
+    }
+    .title_see_more {
+        font-family: NotoSerifBold;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: justify;
+        color: #4a4a4a;
+        text-align: left;
+    }
+    .text_see_more {
+        font-family: NotoSerifRegular;
+        font-size: 8px;
+        text-align: justify;
+        color: #1e1e1e;
+        text-align: left;
+    }
+    .content_see_more {
+        width: 51.8%;
+        float: left;
+        margin-left: 5.7%;
+    }
 }
 
-.iv_see_more {
-    width: 35.4%;
-    height: 137px;
-    object-fit: contain;
-    float: left;
-}
-
-.title_see_more {
-    height: 72px;
-    font-family: NotoSerifBold;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: justify;
-    color: #4a4a4a;
-}
-
-.text_see_more {
-    height: 66px;
-    font-family: NotoSerifRegular;
-    font-size: 14px;
-    text-align: justify;
-    color: #1e1e1e;
-}
-
-.content_see_more {
-    width: 51.8%;
-    float: left;
-    margin-left: 5.7%;
+@media (min-width: 778px) {
+    .see_more {
+        width: 522px;
+        background-color: #eeeeee;
+        float: left;
+        margin-bottom: 3%;
+        padding: 2%;
+        margin-right: 1%
+    }
+    .iv_see_more {
+        width: 35.4%;
+        height: 137px;
+        object-fit: contain;
+        float: left;
+    }
+    .title_see_more {
+        font-family: NotoSerifBold;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: justify;
+        color: #4a4a4a;
+        text-align: left;
+    }
+    .text_see_more {
+        height: 66px;
+        font-family: NotoSerifRegular;
+        font-size: 14px;
+        text-align: justify;
+        color: #1e1e1e;
+        text-align: left;
+    }
+    .content_see_more {
+        width: 51.8%;
+        float: left;
+        margin-left: 5.7%;
+    }
 }
 
 
@@ -503,7 +551,7 @@ p {
     object-fit: contain;
 }
 
-@media (min-width: 320px) and (max-width: 777px) {
+@media (min-width: 0px) and (max-width: 777px) {
     .image {
         width: 320px;
         height: 200px;
@@ -525,7 +573,7 @@ p {
         font-weight: 300;
         text-align: left;
         color: #ffffff;
-        margin-top: -10%;
+        margin-top: -6%;
     }
     div.absolute {
         position: absolute;
@@ -598,7 +646,7 @@ div.relative {
     }
 }
 
-@media (min-width: 320px) and (max-width: 1024px) {
+@media (min-width: 0px) and (max-width: 1024px) {
     .image_general {
         margin-top: 2%;
         margin-bottom: 2%;
@@ -618,7 +666,7 @@ div.relative {
     }
 }
 
-@media (min-width: 320px) and (max-width: 777px) {
+@media (min-width: 0px) and (max-width: 777px) {
     .iv_h1 {
         width: 346px;
         object-fit: contain;
@@ -634,8 +682,11 @@ div.relative {
         object-fit: contain;
     }
     .iv_h5 {
-        width: 191px;
+        width: 100%;
         object-fit: contain;
+    }
+    .image_h5 {
+        width: 100%
     }
 }
 
