@@ -409,15 +409,33 @@ body {
     background-color: #ffffff;
 }
 
-.text_title_body_s {
-    width: 62px;
-    height: 112px;
-    font-family: iCielStormtrooper_Regular;
-    font-size: 100px;
-    text-align: top;
-    color: #8b033f;
-    margin-top: -2%;
-    float: left;
+@media (min-width: 0px) and (max-width: 777px) {
+    .text_title_body_s {
+        width: 62px;
+        height: 112px;
+        font-family: iCielStormtrooper_Regular;
+        font-size: 100px;
+        text-align: top;
+        color: #8b033f;
+        margin-top: -8%;
+        float: left;
+    }
+    .header_title_image {
+        margin-top: 11%;
+    }
+}
+
+@media (min-width: 778px) {
+    .text_title_body_s {
+        width: 62px;
+        height: 112px;
+        font-family: iCielStormtrooper_Regular;
+        font-size: 100px;
+        text-align: top;
+        color: #8b033f;
+        margin-top: -2%;
+        float: left;
+    }
 }
 
 .text_title_body {
@@ -461,7 +479,7 @@ p {
 
 @media (min-width: 0px) and (max-width: 777px) {
     .see_more {
-        width: 281px;
+        width: 300px;
         background-color: #eeeeee;
         float: left;
         margin-bottom: 3%;
@@ -469,7 +487,7 @@ p {
         margin-right: 1%
     }
     .iv_see_more {
-        width: 35.4%;
+        width: 42.4%;
         object-fit: contain;
         float: left;
         margin-top: 10%;
@@ -484,7 +502,7 @@ p {
     }
     .text_see_more {
         font-family: NotoSerifRegular;
-        font-size: 8px;
+        font-size: 11px;
         text-align: justify;
         color: #1e1e1e;
         text-align: left;
@@ -563,7 +581,7 @@ p {
 
 @media (min-width: 0px) and (max-width: 777px) {
     .image {
-        width: 320px;
+        width: 300px;
         height: 200px;
         margin: 0 auto;
     }
@@ -682,13 +700,13 @@ div.relative {
         object-fit: contain;
     }
     .iv_h2 {
-        width: 336px;
+        width: 92%;
         object-fit: contain;
         margin-top: 4%;
         margin-bottom: 4%;
     }
     .iv_h4 {
-        width: 336px;
+        width: 92%;
         object-fit: contain;
     }
     .iv_h5 {
@@ -764,26 +782,81 @@ div.relative {
     }
 }
 
-.see_more_user {
-    margin: 0%;
-    width: 280px;
-    font-family: NotoSerifRegular;
-    font-size: 24px;
-    text-align: center;
-    color: #000000;
+@media (min-width: 1250px) {
+    .see_more_user {
+        margin: 0%;
+        width: 280px;
+        font-family: NotoSerifRegular;
+        font-size: 24px;
+        text-align: center;
+        color: #000000;
+    }
+    .line {
+        position: relative;
+        top: 50%;
+        height: 2px;
+        border: solid 1px #979797;
+    }
+    .see_more_parent {
+        position: relative;
+        height: 40px;
+        width: 38%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
 }
 
-.line {
-    position: relative;    
-    top: 50%;
-    height: 2px;
-    border: solid 1px #979797;
+@media (min-width: 0px) and (max-width:777px) {
+    .see_more_user {
+        margin: 0%;
+        width: 221px;
+        font-family: NotoSerifRegular;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 2%;
+        color: #000000;
+        float: left;
+    }
+    .line {
+        position: relative;
+        top: 50%;
+        width: 15px;
+        height: 2px;
+        float: left;
+        border: solid 1px #979797;
+    }
+    .see_more_parent {
+        position: relative;
+        height: 40px;
+        width: 100%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
 }
 
-.see_more_parent {
-    position: relative;
-    height: 40px;
-    width: 38%;
-    margin-top: 2%;
-    margin-bottom: 4%;
+@media (min-width: 778px) and (max-width:1249px) {
+    .see_more_user {
+        margin: 0%;
+        width: 221px;
+        font-family: NotoSerifRegular;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 2%;
+        color: #000000;
+        float: left;
+    }
+    .line {
+        position: relative;
+        top: 50%;
+        height: 2px;
+        float: left;
+        border: solid 1px #979797;
+    }
+    .see_more_parent {
+        position: relative;
+        height: 40px;
+        width: 400px;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
 }
