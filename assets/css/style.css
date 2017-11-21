@@ -678,7 +678,7 @@ div.relative {
 
 @media (min-width: 0px) and (max-width: 777px) {
     .iv_h1 {
-        width: 346px;
+        width: 78%;
         object-fit: contain;
     }
     .iv_h2 {
@@ -702,7 +702,7 @@ div.relative {
 
 @media (min-width: 778px) and (max-width: 1024px) {
     .iv_h1 {
-        width: 1000px;
+        width: 100%;
         object-fit: contain;
     }
     .iv_h2 {
@@ -765,18 +765,25 @@ div.relative {
 }
 
 .see_more_user {
+    margin: 0%;
     width: 280px;
-    height: 33px;
     font-family: NotoSerifRegular;
     font-size: 24px;
-    text-align: justify;
-        float: left;
+    text-align: center;
     color: #000000;
 }
 
 .line {
-    width: 93px;
+    position: relative;    
+    top: 50%;
     height: 2px;
     border: solid 1px #979797;
-    float: left;
+}
+
+.see_more_parent {
+    position: relative;
+    height: 40px;
+    width: 38%;
+    margin-top: 2%;
+    margin-bottom: 4%;
 }
