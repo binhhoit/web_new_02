@@ -221,16 +221,6 @@ footer .fb-right {
     background: white;
 }
 
-.logo.nav-up {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 3;
-    background: white;
-}
-
 
 /* new style */
 
@@ -772,4 +762,21 @@ div.relative {
         float: left;
         margin-right: 30px;
     }
+}
+
+.see_more_user {
+    width: 280px;
+    height: 33px;
+    font-family: NotoSerifRegular;
+    font-size: 24px;
+    text-align: justify;
+        float: left;
+    color: #000000;
+}
+
+.line {
+    width: 93px;
+    height: 2px;
+    border: solid 1px #979797;
+    float: left;
 }
