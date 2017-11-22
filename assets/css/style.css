@@ -452,7 +452,6 @@ body {
     font-family: NotoSerifBoldItalic;
     font-size: 16px;
     font-weight: bold;
-    font-style: italic;
     text-align: justify;
     color: #000000;
 }
@@ -490,7 +489,7 @@ p {
         width: 42.4%;
         object-fit: contain;
         float: left;
-        margin-top: 10%;
+        margin-top: 4%;
     }
     .title_see_more {
         font-family: NotoSerifBold;
@@ -502,10 +501,14 @@ p {
     }
     .text_see_more {
         font-family: NotoSerifRegular;
+        height: 64px;
         font-size: 11px;
         text-align: justify;
         color: #1e1e1e;
         text-align: left;
+        /* white-space: nowrap; */
+        overflow: -webkit-paged-y ;
+        text-overflow: ellipsis;
     }
     .content_see_more {
         width: 51.8%;
@@ -586,7 +589,7 @@ p {
         margin: 0 auto;
     }
     .content_image {
-        width: 80%;
+        width: 90%;
         font-family: SVN_GilroyBold;
         font-size: 12px;
         font-weight: bold;
@@ -696,7 +699,7 @@ div.relative {
 
 @media (min-width: 0px) and (max-width: 777px) {
     .iv_h1 {
-        width: 78%;
+        width: 100%;
         object-fit: contain;
     }
     .iv_h2 {
@@ -807,11 +810,14 @@ div.relative {
 }
 
 @media (min-width: 0px) and (max-width:777px) {
+    .see_more_big {
+        margin-left: 6%;
+    }
     .see_more_user {
         margin: 0%;
         width: 221px;
         font-family: NotoSerifRegular;
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
         margin-top: 2%;
         color: #000000;
