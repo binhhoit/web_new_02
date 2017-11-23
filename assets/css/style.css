@@ -788,7 +788,6 @@ div.relative {
 @media (min-width: 1250px) {
     .see_more_user {
         margin: 0%;
-        width: 280px;
         font-family: NotoSerifRegular;
         font-size: 24px;
         text-align: center;
@@ -803,7 +802,7 @@ div.relative {
     .see_more_parent {
         position: relative;
         height: 40px;
-        width: 38%;
+        width: 43%;
         margin-top: 2%;
         margin-bottom: 4%;
     }
@@ -843,7 +842,6 @@ div.relative {
 @media (min-width: 778px) and (max-width:1249px) {
     .see_more_user {
         margin: 0%;
-        width: 221px;
         font-family: NotoSerifRegular;
         font-size: 18px;
         text-align: center;
